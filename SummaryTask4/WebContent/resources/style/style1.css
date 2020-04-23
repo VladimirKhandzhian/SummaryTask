@@ -1,0 +1,93 @@
+@charset "UTF-8";
+							
+div.justified {
+        display: flex;
+        justify-content: center;
+}
+
+body {
+    background: #D4E7EE;
+    -moz-background-size: 100%; 
+    -webkit-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%;
+   }
+   
+#layer {
+    bottom: 20px; 
+    position: absolute; 
+    background: #f0f0f0; 
+    padding: 7px; 
+    border: solid 1px black; 
+   }
+						/*Меню -> Начало*/
+													
+.two ul {
+  background: #D4E7EE;
+  overflow: hidden;
+  padding: 0;
+}
+.two li {
+  float: left;
+  color: rgba(173, 192, 206, .3);
+  list-style-type: none;
+}
+.two a {
+  display: block;
+  padding: 1em;
+  font-family: sans-serif;
+  font-size: 90%;
+  border-right: 1px solid #ADC0CE;
+  background: rgba(173, 192, 206, .3);
+  color: #29838C;
+  text-decoration: none;
+}
+.two a:hover {background: #ADC0CE}
+					
+.submit1 {
+  height: 45.5px;
+  width: 150px;
+  font-family: sans-serif;
+  font-size: 90%;
+  background: rgba(173, 192, 206, .3);
+  border-left: 0;
+  border-top: 0;
+  border-bottom: 0;
+  border-right: 1px solid #ADC0CE;
+  overflow: hidden;
+  padding: 0;
+  color: #29838C;
+  z-index: 999999;
+}	
+.submit1:hover {background: #ADC0CE}
+
+							/*Меню -> Конец*/
+
+.three ul {
+  background: #D4E7EE;
+  overflow: hidden;
+  padding: 0;
+}
+.three li {
+  float: left;
+  color: black;
+  list-style-type: none;
+  margin-right: 10px;
+  text-align: center;
+}
+.three a {
+  display: block;
+  padding: 10em;
+  font-family: sans-serif;
+  font-size: 90%;
+  border-right: 1px solid #ADC0CE;
+  background: rgba(173, 192, 206, .3);
+  color: #29838C;
+  text-decoration: none;
+}
+.three a:hover {background: #ADC0CE}
+
+.three td {
+	text-align: right;
+}
+

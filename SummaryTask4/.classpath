@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="sql"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/JavaLibrary/mysql-connector-java-8.0.18/mysql-connector-java-8.0.18.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/JavaLibrary/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/catalina.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/catalina-ant.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/catalina-ha.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/catalina-storeconfig.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/catalina-tribes.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/ecj-4.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/el-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/jasper.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/jasper-el.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/jaspic-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/tomcat-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/tomcat-coyote.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/tomcat-i18n-cs.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/tomcat-i18n-de.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/tomcat-i18n-es.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/tomcat-i18n-fr.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/tomcat-i18n-ja.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/tomcat-i18n-ko.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/tomcat-i18n-pt-BR.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/tomcat-i18n-ru.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/tomcat-i18n-zh-CN.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/tomcat-jdbc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/tomcat-jni.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/tomcat-util.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/tomcat-util-scan.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/tomcat-websocket.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/websocket-api.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/activation-1.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/itextpdf-5.4.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/javax.mail-1.4.5.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/smtp-1.4.4.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/mockito-all-1.9.5.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
