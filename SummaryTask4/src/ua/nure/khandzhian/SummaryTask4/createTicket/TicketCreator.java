@@ -24,8 +24,8 @@ public class TicketCreator {
 		Document document = new Document();
 		
 		PdfWriter.getInstance(document, 
-				new FileOutputStream("C:\\Users\\Vova4\\Desktop\\Tickets\\Flight น" + 
-						order.getId() + "Ticket น" + ticketForSend + ".pdf"));
+				new FileOutputStream("C:\\Users\\Vova4\\Desktop\\Tickets\\Flight ยน" + 
+						order.getId() + "Ticket ยน" + ticketForSend + ".pdf"));
 
 		document.open();
 		
@@ -54,8 +54,8 @@ public class TicketCreator {
 	    for(Orders order2 : daoInterfaceOrders.getInformationAboutTicket(order)) {
 	    	t.addCell("" + order2.getTicketId());
 	    	t.addCell(new PdfPCell(new Phrase(order2.getPassportId())));
-	    	t.addCell(new PdfPCell(new Phrase(order2.getFirstName())));
-	    	t.addCell(new PdfPCell(new Phrase(order2.getSecondName())));
+	    	t.addCell(new PdfPCell(new Phrase(order2.getFirstName(), font)));
+	    	t.addCell(new PdfPCell(new Phrase(order2.getSecondName(), font)));
 	    }
 
 		document.add(t);
