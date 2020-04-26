@@ -32,8 +32,8 @@ public class SendTicket {
 		message.setSubject("Ticket");
 		message.setText("Thank you for you buying");
 		
-		File file = new File("C:\\Users\\Vova4\\Desktop\\Tickets\\Flight น" + 
-				order.getId() + "Ticket น" + ticketForSend + ".pdf");
+		File file = new File("C:\\Users\\Vova4\\Desktop\\Tickets\\Flight โ–" + 
+				order.getId() + "Ticket ยน" + ticketForSend + ".pdf");
 		
 		MimeMultipart multipart = new MimeMultipart();
 		MimeBodyPart part2 = new MimeBodyPart();
