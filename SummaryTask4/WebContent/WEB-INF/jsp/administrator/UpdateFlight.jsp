@@ -15,6 +15,11 @@
 <link href="resources/style/style2.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+
+<c:if test="${administratorId == null}">
+	 <c:redirect url="MainPage.jsp" />
+</c:if>
+
 	<h2 align = "center"><fmt:message key='Information_about_flight'/></h2>
 		<div class = "justified">
        		<form action="controller" method="post">

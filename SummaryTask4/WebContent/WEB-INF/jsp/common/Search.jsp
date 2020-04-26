@@ -118,7 +118,7 @@
         				<td><fmt:message key='Date_and_time_of_departure'/></td>
         				<td><fmt:message key='Date_and_time_of_arrival'/></td>
         				<td><fmt:message key='Number_of_seats'/></td>
-        				<td><fmt:message key='Price'/></td>
+        				<td><fmt:message key='Price'/>, UAH</td>
         				<td><fmt:message key='Flight_status'/></td>
         			</tr>
 				<c:forEach items="${fly}" var="flight">

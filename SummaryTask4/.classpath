@@ -7,9 +7,17 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/JavaLibrary/mysql-connector-java-8.0.18/mysql-connector-java-8.0.18.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/JavaLibrary/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/activation-1.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/itextpdf-5.4.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/javax.mail-1.4.5.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/mockito-all-1.9.5.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/mysql-connector-java-8.0.18.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/smtp-1.4.4.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/annotations-api.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/catalina.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/catalina-ant.jar"/>
@@ -41,11 +49,6 @@
 	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/tomcat-util-scan.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/tomcat-websocket.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Vova4/Desktop/apache-tomcat-9.0.27/lib/websocket-api.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/activation-1.1.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/itextpdf-5.4.0.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/javax.mail-1.4.5.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/smtp-1.4.4.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/mockito-all-1.9.5.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

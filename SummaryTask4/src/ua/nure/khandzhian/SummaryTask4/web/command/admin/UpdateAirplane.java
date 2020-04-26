@@ -39,6 +39,12 @@ public class UpdateAirplane extends Command{
 			throw new Exception("Model_can_not_empty");
 		}
 		
+		try {
+			Integer.parseInt(request.getParameter("numberOfSeats"));
+		} catch (NumberFormatException e) {
+			throw new Exception("Number_of_places_field_should_consist_of_numbers");
+		}
+		
 		int numberOfSeats = Integer.parseInt(request.getParameter("numberOfSeats"));
 		LOGGER.debug("Request parameter: numberOfSeats --> " + numberOfSeats);
 		

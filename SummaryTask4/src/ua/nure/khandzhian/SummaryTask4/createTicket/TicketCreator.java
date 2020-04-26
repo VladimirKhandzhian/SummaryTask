@@ -53,9 +53,9 @@ public class TicketCreator {
 	   
 	    for(Orders order2 : daoInterfaceOrders.getInformationAboutTicket(order)) {
 	    	t.addCell("" + order2.getTicketId());
-	    	t.addCell(new PdfPCell(new Phrase(order2.getPassportId())));
-	    	t.addCell(new PdfPCell(new Phrase(order2.getFirstName())));
-	    	t.addCell(new PdfPCell(new Phrase(order2.getSecondName())));
+	    	t.addCell(new PdfPCell(new Phrase(order2.getPassportId(), font)));
+	    	t.addCell(new PdfPCell(new Phrase(order2.getFirstName(), font)));
+	    	t.addCell(new PdfPCell(new Phrase(order2.getSecondName(), font)));
 	    }
 
 		document.add(t);

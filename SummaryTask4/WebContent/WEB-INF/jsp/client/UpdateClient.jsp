@@ -12,6 +12,11 @@
 <link href="resources/style/style2.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+
+<c:if test="${passportId == null}">
+	 <c:redirect url="MainPage.jsp" />
+</c:if>
+
 <h2 align = "center">Личные данные</h2>
 		<div class = "justified">
        		<form action="controller" method="post">

@@ -29,6 +29,11 @@
 <jsp:setProperty name="requests" property="idWorker" value="${workerId}"/>
 
 <body>
+
+<c:if test="${workerId == null}">
+	 <c:redirect url="MainPage.jsp" />
+</c:if>
+
 <div id="zatemnenie">
       <div id="okno">
       <h2><fmt:message key='Create_brigad'/></h2>

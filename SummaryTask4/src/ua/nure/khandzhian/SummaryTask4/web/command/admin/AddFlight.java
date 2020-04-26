@@ -69,6 +69,10 @@ public class AddFlight extends Command{
 		LocalDateTime destinationDateTime = LocalDateTime.parse(request.getParameter("destinationDateTime"));
 		LOGGER.debug("Request parameter: destinationDateTime --> " + destinationDateTime);
 		
+		if(departureDateTime.compareTo(destinationDateTime) > 0) {
+			throw new Exception("Departure_date_greater_than_arrival_date");
+		}
+		
 		int airplaneId = Integer.parseInt(request.getParameter("airplaneId"));
 		LOGGER.debug("Request parameter: airplaneId --> " + airplaneId);
 		

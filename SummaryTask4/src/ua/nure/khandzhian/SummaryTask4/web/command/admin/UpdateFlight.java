@@ -58,18 +58,22 @@ public class UpdateFlight extends Command{
 			throw new Exception("Destination_can_not_empty");
 		}
 		
+		if(request.getParameter("departureDateTime").isEmpty()) {
+			throw new Exception("Departure_date_and_time_can_not_empty");
+		}
+		
 		LocalDateTime departureDateTime = LocalDateTime.parse(request.getParameter("departureDateTime"));
 		LOGGER.debug("Request parameter: departureDateTime --> " + departureDateTime);
 		
-		if(request.getParameter("departureDateTime").isEmpty()) {
-			throw new Exception("Departure_date_and_time_can_not_empty");
+		if(request.getParameter("destinationDateTime").isEmpty()) {
+			throw new Exception("Destination_date_and_time_can_not_empty");
 		}
 		
 		LocalDateTime destinationDateTime = LocalDateTime.parse(request.getParameter("destinationDateTime"));
 		LOGGER.debug("Request parameter: destinationDateTime --> " + destinationDateTime);
 		
-		if(request.getParameter("destinationDateTime").isEmpty()) {
-			throw new Exception("Destination_date_and_time_can_not_empty");
+		if(departureDateTime.compareTo(destinationDateTime) > 0) {
+			throw new Exception("Departure_date_greater_than_arrival_date");
 		}
 		
 		int airplaneId = Integer.parseInt(request.getParameter("airplaneId"));

@@ -18,6 +18,11 @@
 	class="ua.nure.khandzhian.SummaryTask4.db.entity.Requests"/>
 	
 <body>
+
+<c:if test="${administratorId == null}">
+	 <c:redirect url="MainPage.jsp" />
+</c:if>
+
 <nav class="two">
 	<ul>
 		<li>

@@ -18,6 +18,11 @@
 <link href="resources/style/style4.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+
+<c:if test="${workerId == null}">
+	 <c:redirect url="MainPage.jsp" />
+</c:if>
+
 <nav class="two">
 	<ul>
 		<li><a href="javascript:history.back()" class="a"><fmt:message key='Back'/></a></li>

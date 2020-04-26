@@ -13,6 +13,11 @@
 <link href="resources/style/style1.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+
+<c:if test="${passportId == null}">
+	 <c:redirect url="MainPage.jsp" />
+</c:if>
+
 <nav class="two">
 	<ul>
 		<li>
