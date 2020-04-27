@@ -11,9 +11,9 @@ Destination_date DATETIME NOT NULL,
 Id_airplane INT(11) NULL,
 Empty_of_seats INT(11) NULL,
 Price DOUBLE NULL,
-Flight_status ENUM("По рассписанию", "Ожидается", "Прибыл", "Отменен") NOT NULL DEFAULT "По рассписанию",
+Flight_status ENUM("ГЏГ® Г°Г Г±Г±ГЇГЁГ±Г Г­ГЁГѕ", "ГЋГ¦ГЁГ¤Г ГҐГІГ±Гї", "ГЏГ°ГЁГЎГ»Г«", "ГЋГІГ¬ГҐГ­ГҐГ­") NOT NULL DEFAULT "ГЏГ® Г°Г Г±Г±ГЇГЁГ±Г Г­ГЁГѕ",
 Id_brigad INT(11) NULL,
-FOREIGN KEY (Id_airplane) REFERENCES airplane(Id_airplane) ON DELETE SET NULL);
+FOREIGN KEY (Id_airplane) REFERENCES airplane(Id_airplane) ON DELETE RESTRICT);
 
 CREATE TABLE workers(
 Id_worker INT(11) PRIMARY KEY AUTO_INCREMENT,
@@ -41,7 +41,7 @@ CREATE TABLE requests(
 Id_request INT(11) PRIMARY KEY AUTO_INCREMENT,
 TextOfRequest TEXT NOT NULL,
 Id_worker INT(11) NULL,
-Response ENUM("Выполнена", "Отклонена", "Не рассмотрена") DEFAULT "Не рассмотрена",
+Response ENUM("Г‚Г»ГЇГ®Г«Г­ГҐГ­Г ", "ГЋГІГЄГ«Г®Г­ГҐГ­Г ", "ГЌГҐ Г°Г Г±Г±Г¬Г®ГІГ°ГҐГ­Г ") DEFAULT "ГЌГҐ Г°Г Г±Г±Г¬Г®ГІГ°ГҐГ­Г ",
 FOREIGN KEY (Id_worker) REFERENCES workers(Id_worker) ON DELETE SET NULL);
 
 CREATE TABLE airplane(
